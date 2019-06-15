@@ -1,0 +1,281 @@
+.header {
+    height: 90px;
+    width: 100%;
+    font-family: "微软雅黑"
+}
+
+.logo {
+    float: left;
+}
+
+.liebiao {
+    float: left;
+    width: 621px;
+    height: 63px;
+    line-height: 40px;
+    border: 1px;
+    border-left: 40px;
+    color: #000000
+}
+
+.w960 {
+    width: 960px;
+    height: 80px;
+    margin: 0px auto
+}
+
+.biao1 {
+    float: left;
+    width: 74px;
+    height: 63px
+}
+
+.biao2 {
+    float: left;
+    width: 54px;
+    height: 63px
+}
+
+.biao3 {
+    float: left;
+    width: 70px;
+    height: 63px
+}
+
+.biao4 {
+    float: left;
+    width: 126.44px;
+    height: 63px
+}
+
+.biao5 {
+    float: left;
+    width: 54px;
+    height: 63px
+}
+
+.yonghu {
+    line-height: 40px;
+}
+
+a {
+    text-decoration: none
+}
+
+.beijin {
+    width: 100%;
+    height: 504px;
+}
+
+.sousuokuang {
+    width: 920px;
+    height: 60px;
+}
+
+.tu {
+    width: 100%;
+    height: 168px
+}
+
+.fangbian {;
+    background-color: #ffe5cc;
+    height: 41px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.wen1 {
+    width: 100%;
+    height: 432px;
+}
+
+.neirong1 {
+    width: 960px;
+    height: 432px;
+    margin: 0px auto;
+}
+
+.tu4 {
+    float: left;
+}
+
+.zi1 {
+    width: 960px;
+    height: 212px;
+    text-align: right;
+}
+
+.wen2 {
+    width: 100%;
+    padding: 70px;
+    background-color: #f0f0f0
+}
+
+.neirong2 {
+    width: 960px;
+    height: 432px;
+    margin: 0px auto;
+}
+
+.tu5 {
+    float: right;
+}
+
+.wen3 {
+    width: 100%;
+    padding: 70px
+}
+
+.neirong3 {
+    width: 960px;
+    height: 432px;
+    margin: 0px auto;
+}
+
+.tu6 {
+    float: right;
+}
+
+.wen4 {
+    width: 100%;
+    padding: 70px;
+    background-color: #f0f0f0
+}
+
+.neirong4 {
+    width: 960px;
+    height: 432px;
+    margin: 0px auto;
+}
+
+.tu7 {
+    float: left;
+    width: 250px;
+    height: 350px
+}
+
+.wen5 {
+    width: 100%;
+    padding: 70px
+}
+
+.neirong5 {
+    width: 960px;
+    height: 432px;
+    margin: 0px auto;
+}
+
+.tu8 {
+    float: right;
+    width: 440px;
+    height: 317px
+}
+
+.wen6 {
+    width: 100%;
+    padding: 70px;
+    background-color: #f0f0f0
+}
+
+.neirong6 {
+    width: 960px;
+    height: 432px;
+    margin: 0px auto;
+}
+
+.tu9 {
+    float: left;
+}
+
+.hezuo1 {
+    width: 100%;
+    height: 300px
+}
+
+.dxyh {
+    margin: 0px auto;
+    width: 960px;
+    height: 85px
+}
+
+.Android1 {
+    background-color: #ff7800;
+    height: 50px;
+    width: 160px;
+    text-align: center;
+    margin-left: 476px
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 22px;
+}
+
+.index_dev_txt {
+    color: #787878;
+    font-size: 16px
+}
+
+.mianfeitiyan {
+    height: 60px;
+    width: 400px;
+    background-color: #ff7800;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    margin: 20px 0 10px 0;
+}
+
+.wenzi {
+    color: #fff
+}
+
+.mianfeishenqing {
+    height: 60px;
+    width: 400px;
+    background-color: #ff7800;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;;
+    margin: 20px 0 10px 500px
+}
+
+.zi4 {
+    width: 646px;
+    height: 400px;
+    text-align: right;
+}
+
+.chakanxiangqing {
+    height: 60px;
+    width: 400px;
+    background-color: #ff7800;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.chakanxiangqing2 {
+    height: 60px;
+    width: 400px;
+    background-color: #ff7800;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    margin: 100px 0 10px 500px
+}
+
+.dxhb {
+    margin: 0px auto;
+    width: 960px;
+    height: 85px;
+    background-color: #fff
+}
+
+.Android2 {
+    background-color: #ff7800;
+    height: 50px;
+    width: 160px;
+    text-align: center;
+}

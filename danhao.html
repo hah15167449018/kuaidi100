@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>111</title>
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="neirong"></div>
+</body>
+<script>
+  function GetRequest() {
+    var url = location.search;
+    var theRequest ={};
+    if (url.indexOf("?") !== -1) {
+      var str = url.substr(1);
+      var strs = str.split("&");
+      for (var i = 0; i < strs.length; i++) {
+        theRequest[strs[i].split("=")[0]] = decodeURIComponent(strs[i].split("=")[1]);
+      }
+    }
+    return theRequest;
+  }
+
+  var a = GetRequest();
+  var danhao = a.danhao
+
+  window.onload = function neirong() {
+    $.ajax({
+      type: "get",
+      async: false,
+      url: "http://www.kuaidi100.com/autonumber/autoComNum?text=" + danhao,
+      dataType: "jsonp",
+      jsonp: "callback",
+      jsonpCallback: "flightHandler",
+      success: function (json) {
+        getDetail(json)
+      },
+      error: function () {
+        console.log("fail");
+      }
+    })
+  }
+
+  function getDetail(json) {
+    var com = json.auto[0].comCode
+    var time = new Date().getTime()
+    $.ajax({
+        type: "get",
+        async: false,
+        url: "https://www.kuaidi100.com/query?type=" + com + "&postid=" + danhao + "&id=1&valicode=&temp=" + time,
+        dataType: "jsonp",
+        jsonp: "callback",
+        jsonpCallback: "detailHandler",
+        success: function (json) {
+          console.log(json)
+        },
+        error: function () {
+          console.log('get dertail error')
+        }
+      }
+    )
+  }
+</script>
+</html>
